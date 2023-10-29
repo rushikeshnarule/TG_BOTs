@@ -645,11 +645,11 @@ async def settings(client, message):
             [
                 InlineKeyboardButton(
                     'Rᴇsᴜʟᴛ Pᴀɢᴇ',
-                    callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
+                    callback_data=f'setgs#text#{settings["button"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
                     'Bᴜᴛᴛᴏɴ' if settings["button"] else 'Tᴇxᴛ',
-                    callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
+                    callback_data=f'setgs#texr#{settings["button"]}#{grp_id}',
                 ),
             ],
             [
